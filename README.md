@@ -10,6 +10,7 @@ Program is used for gathering information about groups of social network "Vkonta
 main.py - main program, requires vk_api library. To successfully use it you need to change "login, password = 'your_login', 'your_password'" to login and passwords from legit Vkontakte account. 
 test_Bgroups and test_Ggroups consist of groups for training set. WARNING!!!! There is a good chance that most of groups in test_Bgroups are now closed, so you'll probably need new one if you want to launch it.  
 groupdate.py - additional program which takes list of groups and returns number of groups created monthly (i.e groups created at May 2016).
+1grams-3.txt - file with stopwords. For this file 100 most popular russian words were used, so the format is "number_of_uses word". Change it or the code accordingly if you want to use another one.
 
 Output files:  
 groups.txt - returns number of bad and good posts for each group. Number of bad posts has a multiplier for classifing purposes.
